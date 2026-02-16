@@ -1,0 +1,51 @@
+
+import type { Institution } from './types';
+import { BanamexLogo, BbvaLogo, SantanderLogo, HsbcLogo, StpLogo, MercadoPagoLogo } from './components/icons/BankLogos';
+
+export const MOCK_INSTITUTIONS: Institution[] = [
+  { name: 'BBVA', logo: BbvaLogo },
+  { name: 'Santander', logo: SantanderLogo },
+  { name: 'Banamex', logo: BanamexLogo },
+  { name: 'HSBC', logo: HsbcLogo },
+  { name: 'STP', logo: StpLogo },
+  { name: 'Mercado Pago', logo: MercadoPagoLogo },
+];
+
+export const BANK_CODES: { [key: string]: string } = {
+  '002': 'Banamex',
+  '012': 'BBVA Bancomer',
+  '014': 'Santander',
+  '021': 'HSBC',
+  '030': 'Banbajio',
+  '032': 'IXE',
+  '036': 'Inbursa',
+  '044': 'Scotiabank',
+  '058': 'Banregio',
+  '059': 'Afirme',
+  '062': 'Banjercito',
+  '072': 'Banorte',
+  '106': 'Bansí',
+  '110': 'JP Morgan',
+  '112': 'Monex',
+  '113': 'Ve Por Mas',
+  '126': 'Credicoppel',
+  '127': 'Azteca',
+  '128': 'Autofin',
+  '132': 'ICBC',
+  '137': 'CIBanco',
+  '138': 'Actinver',
+  '140': 'Compartamos',
+  '141': 'Famsa',
+  '145': 'Invex',
+  '147': 'Accendo',
+  '156': 'Sabadell',
+  '166': 'Bancrea',
+  '600': 'Monet',
+  '608': 'Financiera Sustentable',
+  '610': 'Kuspit',
+  '614': 'Nu',
+  '638': 'Klar',
+  '646': 'STP',
+  '901': 'CLS',
+  '902': 'Indeval',
+};

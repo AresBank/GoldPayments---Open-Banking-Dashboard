@@ -1,0 +1,5 @@
+{
+  "name": "GoldPayments - Open Banking Dashboard",
+  "description": "A sleek, dark-themed dashboard for GoldPayments that integrates with Open Banking providers to offer a consolidated view of finances, intelligent transfers, and expense categorization.",
+  "requestFramePermissions": []
+}
